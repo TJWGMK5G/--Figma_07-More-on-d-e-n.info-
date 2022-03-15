@@ -1130,8 +1130,18 @@ h6 {
 .main-reviews-title-left {
   margin-right: 10%;
 }
+@media (max-width: 500px) {
+  .main-reviews-title-left {
+    margin-right: 5%;
+  }
+}
 .main-reviews-title-right {
   margin-left: 10%;
+}
+@media (max-width: 500px) {
+  .main-reviews-title-right {
+    margin-left: 5%;
+  }
 }
 
 .main-reviews-slider-left-title {
@@ -1181,12 +1191,41 @@ h6 {
   color: #ffffff;
   text-align: center;
 }
-
+.main-about-title-heal {
+  align-items: baseline;
+  display: contents;
+}
+@media (max-width: 1024px) {
+  .main-about-title-heal {
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main-about-title-heal {
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
 .main-about-title-left {
   margin-right: 10%;
 }
+@media (max-width: 500px) {
+  .main-about-title-left {
+    margin-right: 5%;
+  }
+}
 .main-about-title-right {
   margin-left: 10%;
+}
+@media (max-width: 500px) {
+  .main-about-title-right {
+    margin-left: 5%;
+  }
 }
 .main-about-media-position {
   padding: 0px 30px;
@@ -1216,18 +1255,50 @@ h6 {
   color: #ffffff;
   margin-bottom: 100px;
 }
+@media (max-width: 1024px) {
+  .main-price-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main-price-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
 .main-about-media-picture img {
   width: 100%;
 }
 .main-price-title-left {
   margin-right: 10%;
 }
+@media (max-width: 500px) {
+  .main-price-title-left {
+    margin-right: 5%;
+  }
+}
 .main-price-title-right {
   margin-left: 10%;
+}
+@media (max-width: 500px) {
+  .main-price-title-right {
+    margin-left: 5%;
+  }
 }
 .main-price-list {
   display: flex;
   margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .main-price-list {
+    display: flex;
+    justify-content: end;
+  }
 }
 
 .main-price-list-picture img {
@@ -1248,6 +1319,11 @@ h6 {
   color: #ffffff;
   margin-bottom: 20px;
 }
+@media (max-width: 600px) {
+  .main-price-num {
+    margin-bottom: 33px;
+  }
+}
 .main-price-franks img {
   margin-bottom: 20px;
   width: 100%;
@@ -1263,6 +1339,11 @@ h6 {
   grid-template-columns: 2fr 1fr;
   margin-bottom: 50px;
 }
+/* @media (max-width: 996px) {
+  .main-adress {
+    display: block;
+  }
+} */
 .main-adress-map iframe {
   border-radius: 10px;
   width: 100%;
